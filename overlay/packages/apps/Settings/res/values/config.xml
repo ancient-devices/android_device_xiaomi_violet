@@ -18,4 +18,8 @@
 
     <!-- Whether to show a preference item for mobile plan -->
     <bool name="config_show_mobile_plan">false</bool>
+
+    <!-- Smartcharging -->
+    <bool name="config_supportSmartCharging">true</bool>
+
 </resources>

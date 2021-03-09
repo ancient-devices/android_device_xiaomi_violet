@@ -34,6 +34,9 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 TARGET_BOOTLOADER_BOARD_NAME := sm6150
 TARGET_NO_BOOTLOADER := true
 
+# Build libhwui in performance mode
+HWUI_COMPILE_FOR_PERF := true
+
 # Android Verified Boot
 BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag

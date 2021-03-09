@@ -39,6 +39,7 @@ HWUI_COMPILE_FOR_PERF := true
 
 # Broken rules
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true

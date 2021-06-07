@@ -189,6 +189,12 @@ telephony.lteOnCdmaDevice=1
 # USB
 vendor.usb.use_ffs_mtp=0
 
+# USB debugging at boot
+persist.sys.usb.config=mtp,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
+
 # VoLTE
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1

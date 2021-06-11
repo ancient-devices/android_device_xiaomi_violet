@@ -1085,7 +1085,6 @@ vendor/etc/thermal-engine-pubgmhd.conf
 vendor/etc/thermal-engine-sgame.conf
 vendor/etc/thermal-engine-studio.conf
 vendor/etc/thermal-engine-tgame.conf
-vendor/lib64/libthermalfeature.so
 
 # Thermal (init script) - from LA.UM.8.9.r1-07100-SM6xx.0
 vendor/etc/init/init_thermal-engine.rc|f0d14aa4734b2e8afd61a4eed73238187b268f48

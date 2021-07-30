@@ -307,6 +307,10 @@ on boot
     chown system system /sys/class/sensors/apds9930-proximity/enable
     chown system system /sys/class/sensors/apds9930-proximity/poll_delay
 
+    # FPS Info
+    chown system graphics /sys/class/drm/card0/sde-crtc-0/measured_fps
+    chmod 0666 /sys/class/drm/card0/sde-crtc-0/measured_fps
+
 # msm specific files that need to be created on /data
 on post-fs-data
     mkdir /data/vendor/hbtp 0750 system system

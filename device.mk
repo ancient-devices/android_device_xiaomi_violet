@@ -356,6 +356,7 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.insmod.sh \
     init.msm.usb.configfs.rc \
+    init.performance_level.rc \
     init.power.rc \
     init.qcom.rc \
     init.qcom.usb.rc \

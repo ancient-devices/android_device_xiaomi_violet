@@ -24,4 +24,7 @@
     <!-- Default state for LiveDisplay -->
     <bool name="config_liveDisplayAvailable">true</bool>
 
+    <!-- Whether device supports gaming mode profiles -->
+    <bool name="config_gamingmode_performance">true</bool>
+
 </resources>

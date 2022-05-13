@@ -215,6 +215,12 @@ on early-boot
     chmod 0775 /mnt/vendor/persist/data/pfm/licenses
 
 on boot
+    # Allow system to manipulate kprofiles modes and parameters
+    chown system system /sys/module/kprofiles/parameters/auto_kprofiles
+    chmod 0660 /sys/module/kprofiles/parameters/auto_kprofiles
+    chown system system /sys/module/kprofiles/parameters/kp_mode
+    chmod 0660 /sys/module/kprofiles/parameters/kp_mode
+
     chown system system /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 10
 

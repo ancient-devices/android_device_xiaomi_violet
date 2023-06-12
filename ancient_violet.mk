@@ -13,7 +13,7 @@ $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # MiuiCamera
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+#$(call inherit-product, vendor/MiuiCamera/config.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := ancient_violet

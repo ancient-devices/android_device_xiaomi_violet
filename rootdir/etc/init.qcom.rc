@@ -92,7 +92,7 @@ on init
 
     # Set default schedTune value for foreground/top-app
     write /dev/stune/foreground/schedtune.prefer_idle 1
-    write /dev/stune/top-app/schedtune.boost 10
+    write /dev/stune/top-app/schedtune.boost 15
     write /dev/stune/top-app/schedtune.prefer_idle 1
 
     # Create a cpuset for camera-specific processes
@@ -106,7 +106,7 @@ on init
     # Create an stune group for camera-specific processes
     mkdir /dev/stune/camera-daemon
     write /dev/stune/camera-daemon/schedtune.prefer_idle 1
-    write /dev/stune/camera-daemon/schedtune.boost 0
+    write /dev/stune/camera-daemon/schedtune.boost 2
     chown system system /dev/stune/camera-daemon
     chown system system /dev/stune/camera-daemon/tasks
     chmod 0664 /dev/stune/camera-daemon/tasks

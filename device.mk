@@ -281,6 +281,10 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0.vendor \
     android.hardware.keymaster@4.1.vendor
 
+# KProfiles
+PRODUCT_PACKAGES += \
+    KProfiles
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_sm6150
